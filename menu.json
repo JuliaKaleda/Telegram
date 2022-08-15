@@ -1,0 +1,168 @@
+[
+  {
+    "keyboard_name": "main",
+    "buttons": [
+      {
+        "id": "1",
+        "name": "Торты",
+        "position": 0,
+        "to_print": "Торты",
+        "next_keyboard": "cakes",
+        "link": ""
+      },
+      {
+        "id": "2",
+        "name": "Пирожные",
+        "position": 1,
+        "to_print": "Пирожные",
+        "next_keyboard": "mini_cakes",
+        "link": ""
+      },
+      {
+        "id": "3",
+        "name": "Топперы",
+        "position": 2,
+        "to_print": "Топперы для тортов",
+        "next_keyboard": "toppers",
+        "link": ""
+      },
+      {
+        "id": "4",
+        "name": "О нас",
+        "position": 3,
+        "to_print": "Контакты: адрес, телефон.",
+        "next_keyboard": "main",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "keyboard_name": "cakes",
+    "buttons": [
+      {
+        "id": "5",
+        "name": "Медовик",
+        "position": "0",
+        "price": "45.00",
+        "size": "1350",
+        "to_print": "Медовые коржи с кремом из сметаны и черносливом. Сверху украшен грецким орехом.",
+        "next_keyboard": "cakes",
+        "link": ""
+      },
+      {
+        "id": "6",
+        "name": "Наполеон",
+        "position": "1",
+        "price": "42.00",
+        "size": "1100",
+        "to_print": "Коржи из слоёного теста пропитаны заварным кремом. Сверху укращен миндальной стружкой.",
+        "next_keyboard": "cakes",
+        "link": ""
+      },
+      {
+        "id": "7",
+        "name": "Тирамису",
+        "position": "2",
+        "price": "51.00",
+        "size": "1550",
+        "to_print": "Классический многослойный десерт с сыром маскарпоне, эспрессо и печеньем савоярди. Сверху украшен какао.",
+        "next_keyboard": "cakes",
+        "link": ""
+      },
+      {
+        "id": "14",
+        "name": "Домой",
+        "position": 4,
+        "to_print": "\uD83D\uDD25Ждём Вас в нашей кондитерской!\uD83D\uDD25",
+        "next_keyboard": "main",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "keyboard_name": "mini_cakes",
+    "buttons": [
+      {
+        "id": "8",
+        "name": "Картошка",
+        "position": "0",
+        "price": "6.00",
+        "size": "150",
+        "to_print": "Шоколадное пирожное из вафельной крошки, какао и сливочного масла.",
+        "next_keyboard": "mini_cakes",
+        "link": ""
+      },
+      {
+        "id": "9",
+        "name": "Брауни",
+        "position": "1",
+        "price": "8.00",
+        "size": "200",
+        "to_print": "Шоколадное пирожное с абрикосовой глазурью снаружи.",
+        "next_keyboard": "mini_cakes",
+        "link": ""
+      },
+      {
+        "id": "10",
+        "name": "Эклер",
+        "position": "2",
+        "price": "5.00",
+        "size": "120",
+        "to_print": "Заварное пирожное с творожной начинкой.",
+        "next_keyboard": "mini_cakes",
+        "link": ""
+      },
+      {
+        "id": "15",
+        "name": "Домой",
+        "position": 4,
+        "to_print": "\uD83D\uDD25Ждём Вас в нашей кондитерской!\uD83D\uDD25",
+        "next_keyboard": "main",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "keyboard_name": "toppers",
+    "buttons": [
+      {
+        "id": "11",
+        "name": "Топпер цифра",
+        "position": "0",
+        "price": "6.00",
+        "size": "13",
+        "to_print": "Пряник в виде цифры на шпажке для украшения торта.",
+        "next_keyboard": "toppers",
+        "link": ""
+      },
+      {
+        "id": "12",
+        "name": "Топпер 'Мишка'",
+        "position": "1",
+        "price": "7.00",
+        "size": "15",
+        "to_print": "Пряник в виде мишки на шпажке для украшения торта.",
+        "next_keyboard": "toppers",
+        "link": ""
+      },
+      {
+        "id": "13",
+        "name": "Топпер-леденец",
+        "position": "2",
+        "price": "2.00",
+        "size": "9",
+        "to_print": "Круглый леденец на шпажке для украшения торта.",
+        "next_keyboard": "toppers",
+        "link": ""
+      },
+      {
+        "id": "16",
+        "name": "Домой",
+        "position": 4,
+        "to_print": "\uD83D\uDD25Ждём Вас в нашей кондитерской!\uD83D\uDD25",
+        "next_keyboard": "main",
+        "link": ""
+      }
+    ]
+  }
+]
